@@ -25,7 +25,7 @@ import UserInfo from './UserInfo.vue';
 import NetworkInfo from './NetworkInfo.vue';
 // 【info】功能待完善
 // import InfoControl from './InfoControl.vue';
-import LayoutControl from './LayoutControl.vue';
+import LayoutControl from './layoutControl.vue';
 import { useBasicStore } from '../../stores/basic';
 import { storeToRefs } from 'pinia';
 
