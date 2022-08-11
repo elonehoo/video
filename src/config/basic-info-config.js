@@ -65,7 +65,7 @@ export const userInfo = {
   // 用户Id
   userId: `user_${Math.ceil(Math.random() * 100000)}`,
   // 用户昵称
-  userName: 'elonehoo',
+  userName: `user_${Math.ceil(Math.random() * 100000)}`,
   // 用户头像
   userAvatar: '',
 };
