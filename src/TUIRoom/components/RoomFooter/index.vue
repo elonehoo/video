@@ -17,7 +17,6 @@
         v-if="basicStore.roomMode === ETUISpeechMode.APPLY_SPEECH"
         @click="report('applyControl')"
       ></apply-control>
-      <more-control @click="report('moreControl')"></more-control>
       <setting-control @click="report('settingControl')"></setting-control>
     </div>
     <div class="right-container">

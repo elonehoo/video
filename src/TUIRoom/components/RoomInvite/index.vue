@@ -9,22 +9,7 @@
           <svg-icon icon-name="copy-icon" class="copy" @click="onCopy(roomId)"></svg-icon>
         </div>
       </div>
-      <div class="invite-item">
-        <span class="invite-title">通过房间链接邀请</span>
-        <div class="input-area">
-          <input class="input" type="text" :value="inviteLink">
-          <svg-icon icon-name="copy-icon" class="copy" @click="onCopy(inviteLink)"></svg-icon>
-        </div>
-      </div>
-      <div class="invite-item">
-        <span class="invite-title">通过客户端 scheme 邀请</span>
-        <div class="input-area">
-          <input class="input" type="text" :value="schemeLink">
-          <svg-icon icon-name="copy-icon" class="copy" @click="onCopy(schemeLink)"></svg-icon>
-        </div>
-      </div>
     </div>
-    <!-- <div>允许访客通过链接进入房间</div> -->
   </div>
 </template>
 
