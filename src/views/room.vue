@@ -65,19 +65,34 @@ function onEnterRoom(info: { code: number; message: string }) {
 // 主持人销毁房间回调
 const onRoomDestroy = (info: { code: number; message: string }) => {
   console.debug('onRoomDestroy:', info);
-  router.replace({ path: '/home' });
+  router.replace({ 
+    path: '/home',
+    query: {
+      username:route.query.username
+    }
+  });
 };
 
 // 普通成员退出房间回调
 const onRoomExit = (info: { code: number; message: string }) => {
   console.debug('onRoomExit:', info);
-  router.replace({ path: '/home' });
+  router.replace({ 
+    path: '/home',
+    query: {
+      username:route.query.username
+    }
+  });
 };
 
 // 普通成员被主持人踢出房间
 const onKickOff = (info: { code: number; message: string }) => {
   console.debug('onKickOff:', info);
-  router.replace({ path: '/home' });
+  router.replace({ 
+    path: '/home',
+    query: {
+      username:route.query.username
+    }
+  });
 };
 
 </script>

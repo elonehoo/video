@@ -68,7 +68,8 @@ async function handleCreateRoom(mode: string) {
   router.replace({
     path: 'room',
     query: {
-      roomId,
+      username:route.query.username,
+      roomId:roomId,
     },
   });
 }

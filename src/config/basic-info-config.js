@@ -71,7 +71,6 @@ export const userInfo = {
 };
 
 export function getBasicInfo() {
-  console.log('getBasicInfo');
   if (SDKAPPID === Number(0) || SECRETKEY === String('')) {
     alert('Please configure your SDKAPPID in config/basic-info-config.js');
     return;
