@@ -1,7 +1,6 @@
 /*
  * @Description: TUIRoom 应用的基础信息配置
  */
-
 import LibGenerateTestUserSig from './lib-generate-test-usersig-es.min';
 
 /**
@@ -61,16 +60,18 @@ export const EXPIRETIME = 604800;
  * 设置推流端用户信息
  * 注意：web端屏幕分享流和音视频流为两个Client, 屏幕分享流用户id为`share_${userId}`
  */
+
 export const userInfo = {
   // 用户Id
-  userId: `user_${Math.ceil(Math.random() * 100000)}`,
+  userId: decodeURIComponent(window.location.href.substring(window.location.href.indexOf('?') + 1).match(new RegExp("(^|&)" + "username" + "=([^&]*)(&|$)", "i"))[2]),
   // 用户昵称
-  userName: `user_${Math.ceil(Math.random() * 100000)}`,
+  userName: decodeURIComponent(window.location.href.substring(window.location.href.indexOf('?') + 1).match(new RegExp("(^|&)" + "username" + "=([^&]*)(&|$)", "i"))[2]),
   // 用户头像
   userAvatar: '',
 };
 
 export function getBasicInfo() {
+  console.log('getBasicInfo');
   if (SDKAPPID === Number(0) || SECRETKEY === String('')) {
     alert('Please configure your SDKAPPID in config/basic-info-config.js');
     return;

@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from 'vue-router';
+import { createRouter, createWebHistory } from 'vue-router';
 
 const routes = [
   {
@@ -8,6 +8,7 @@ const routes = [
   {
     path: '/home',
     component: () => import('@/views/home.vue'),
+    props: (route:any) => ({ username: route.query.username  }),
   },
   {
     path: '/room',
@@ -16,7 +17,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
 });
 
