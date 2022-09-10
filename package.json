@@ -9,7 +9,7 @@
     "lint": "./node_modules/.bin/eslint ./src --no-error-on-unmatched-pattern"
   },
   "dependencies": {
-    "@vue/reactivity": "3.2.31",
+    "@vue/reactivity": "3.2.39",
     "axios": "0.27.2",
     "element-plus": "2.2.0",
     "events": "3.3.0",
@@ -21,7 +21,7 @@
     "tim-js-sdk": "2.18.0",
     "trtc-js-sdk": "4.12.7",
     "tsignaling": "0.10.0",
-    "vue": "3.2.31",
+    "vue": "3.2.39",
     "vue-router": "4.0.14"
   },
   "devDependencies": {
