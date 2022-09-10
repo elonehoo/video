@@ -16,7 +16,7 @@
     "js-cookie": "3.0.1",
     "mitt": "3.0.0",
     "pinia": "2.0.22",
-    "qs": "6.10.3",
+    "qs": "6.11.0",
     "rtc-beauty-plugin": "0.1.0",
     "tim-js-sdk": "2.18.0",
     "trtc-js-sdk": "4.12.7",
