@@ -15,7 +15,7 @@
     "events": "3.3.0",
     "js-cookie": "3.0.1",
     "mitt": "3.0.0",
-    "pinia": "2.0.13",
+    "pinia": "2.0.22",
     "qs": "6.10.3",
     "rtc-beauty-plugin": "0.1.0",
     "tim-js-sdk": "2.18.0",
