@@ -18,7 +18,7 @@
     "pinia": "2.0.22",
     "qs": "6.10.3",
     "rtc-beauty-plugin": "0.1.0",
-    "tim-js-sdk": "2.18.0",
+    "tim-js-sdk": "2.22.1",
     "trtc-js-sdk": "4.14.3",
     "tsignaling": "0.10.0",
     "vue": "3.2.39",
