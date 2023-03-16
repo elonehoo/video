@@ -31,7 +31,7 @@
     "@types/qs": "6.9.7",
     "@typescript-eslint/eslint-plugin": "5.36.2",
     "@typescript-eslint/parser": "5.36.2",
-    "@vitejs/plugin-vue": "3.1.0",
+    "@vitejs/plugin-vue": "4.1.0",
     "eslint": "8.23.0",
     "eslint-config-tencent": "1.0.4",
     "eslint-plugin-import": "2.26.0",
